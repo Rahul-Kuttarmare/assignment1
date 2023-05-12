@@ -11,10 +11,6 @@
     
 }
 
-
-
-
-
 .btn1{
   /* background-color:red */
   background-image: radial-gradient(100% 100% at 100% 0, #fd1212 0, #ff5454 100%);
@@ -30,6 +26,17 @@
   background-image: radial-gradient(100% 100% at 100% 0, #fff203 0, #f5f35af2 100%);
 
 }
+.btn4{
+  /* clockwise */
+  background-image: radial-gradient(100% 100% at 100% 0, #ff03426c 0, #4b061cf2 100%);
+
+}
+.btn5{
+  /* anti-clockwise */
+  background-image: radial-gradient(100% 100% at 100% 0, #ff03426c 0, #4b061cf2 100%);
+
+}
+
 
 .button-29{
   align-items: center;
