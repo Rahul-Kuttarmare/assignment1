@@ -1,24 +1,24 @@
   BtnArray = ["Red","Green","Yellow"]
   ColorClass = ["btn1","btn2","btn3"]
-
+  
   function changeColor(color) {
     var element1 = document.getElementById("b1");
     console.log(element1.classList)
     element1.classList.remove("btn1");
     element1.classList.remove("btn2");
     element1.classList.remove("btn3");
-    element1.classList.add(color);
+    element1.classList.add(ColorClass[color]);
 
     var element2 = document.getElementById("b2");
     element2.classList.remove("btn1");
     element2.classList.remove("btn2");
     element2.classList.remove("btn3");
-    element2.classList.add(color);
+    element2.classList.add(ColorClass[color]);
     var element3 = document.getElementById("b3");
     element3.classList.remove("btn1");
     element3.classList.remove("btn2");
     element3.classList.remove("btn3");
-    element3.classList.add(color);
+    element3.classList.add(ColorClass[color]);
   }
 
   function rotate(direction){
